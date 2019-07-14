@@ -44,12 +44,12 @@ Integer number = Integer.parseInt(din.readLine());
 ```
 ```java
 // String array as input
-String  string_array[] =  din.readLine().split("\\s");
+String string_array[] = din.readLine().split("\\s");
 ```
 ```java
 // Integer array as input
-String  string_array[] =  din.readLine().split("\\s");
-List<Integer> int_array =  new  ArrayList<Integer>();
+String string_array[] = din.readLine().split("\\s");
+List<Integer> int_array = new ArrayList<Integer>();
 for(String s:arr){
 arr2.add(Integer.parseInt(s));
 }
@@ -220,6 +220,7 @@ for(int key : users.values()){
 ```python
 numbers = [73, 8, 52, 12, 66, 31]
 numbers.sort()
+#numbers.sort(reverse=True)
 ```
 > Java
 ```java
