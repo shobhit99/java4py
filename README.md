@@ -51,7 +51,7 @@ String string_array[] = din.readLine().split("\\s");
 String string_array[] = din.readLine().split("\\s");
 List<Integer> int_array = new ArrayList<Integer>();
 for(String s:arr){
-arr2.add(Integer.parseInt(s));
+int_array.add(Integer.parseInt(s));
 }
 ```
 ## for loop
